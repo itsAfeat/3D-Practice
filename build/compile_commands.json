@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bremsespor/Programming/PS1 projects/3D test/build",
+  "command": "/opt/psn00bsdk/bin/mipsel-none-elf-gcc -DPSN00BSDK=1 -I/opt/psn00bsdk/lib/libpsn00b/cmake/../../../include/libpsn00b -g -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -Og -mdivide-breaks -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/game.dir/main.c.obj -c \"/home/bremsespor/Programming/PS1 projects/3D test/main.c\"",
+  "file": "/home/bremsespor/Programming/PS1 projects/3D test/main.c"
+}
+]

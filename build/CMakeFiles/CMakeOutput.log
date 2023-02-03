@@ -1,0 +1,257 @@
+The target system is: Generic -  - mipsel
+The host system is: Linux - 6.0.12-76060006-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/psn00bsdk/bin/mipsel-none-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400060
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/psn00bsdk/bin/mipsel-none-elf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+mipsel-none-elf-gcc (GCC) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/psn00bsdk/bin/ninja cmTC_1e636 && [1/2] Building C object CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_AS_OPTIONS='--strip-local-absolute'
+COLLECT_GCC=/opt/psn00bsdk/bin/mipsel-none-elf-gcc
+Target: mipsel-none-elf
+Configured with: ../gcc-12.2.0/configure --prefix=/home/runner/work/PSn00bSDK/PSn00bSDK/gcc/linux --target=mipsel-none-elf --disable-docs --disable-nls --disable-libada --disable-libssp --disable-libquadmath --disable-libstdc++-v3 --with-float=soft --enable-languages=c,c++ --with-gnu-as --with-gnu-ld
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_1e636.dir/'
+ /opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/cc1 -quiet -v -imultilib soft-float -iprefix /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/ -D NDEBUG=1 -D PSN00BSDK=1 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1e636.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -o /tmp/cciMHXde.s
+GNU C17 (GCC) version 12.2.0 (mipsel-none-elf)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"
+ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include"
+ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include-fixed"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include
+ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed
+End of search list.
+GNU C17 (GCC) version 12.2.0 (mipsel-none-elf)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 102c52e5281ab860262257e357a6e05c
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_1e636.dir/'
+ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/as -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj /tmp/cciMHXde.s
+GNU assembler version 2.39 (mipsel-none-elf) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../libexec/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/
+LIBRARY_PATH=/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/soft-float/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../lib/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C static library libcmTC_1e636.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include]
+    add: [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+  end of search list found
+  collapse include dir [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include] ==> [/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include]
+  collapse include dir [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed] ==> [/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+  implicit include dirs: [/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include;/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-none-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/psn00bsdk/bin/ninja cmTC_1e636 && [1/2] Building C object CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_AS_OPTIONS='--strip-local-absolute']
+  ignore line: [COLLECT_GCC=/opt/psn00bsdk/bin/mipsel-none-elf-gcc]
+  ignore line: [Target: mipsel-none-elf]
+  ignore line: [Configured with: ../gcc-12.2.0/configure --prefix=/home/runner/work/PSn00bSDK/PSn00bSDK/gcc/linux --target=mipsel-none-elf --disable-docs --disable-nls --disable-libada --disable-libssp --disable-libquadmath --disable-libstdc++-v3 --with-float=soft --enable-languages=c,c++ --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_1e636.dir/']
+  ignore line: [ /opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/cc1 -quiet -v -imultilib soft-float -iprefix /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/ -D NDEBUG=1 -D PSN00BSDK=1 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1e636.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -o /tmp/cciMHXde.s]
+  ignore line: [GNU C17 (GCC) version 12.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include"]
+  ignore line: [ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include]
+  ignore line: [ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 102c52e5281ab860262257e357a6e05c]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_1e636.dir/']
+  ignore line: [ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/as -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj /tmp/cciMHXde.s]
+  ignore line: [GNU assembler version 2.39 (mipsel-none-elf) using BFD version (GNU Binutils) 2.39]
+  ignore line: [COMPILER_PATH=/opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../libexec/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/soft-float/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../lib/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_1e636.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C static library libcmTC_1e636.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/psn00bsdk/bin/ninja cmTC_dcfa1 && [1/2] Building CXX object CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_AS_OPTIONS='--strip-local-absolute'
+COLLECT_GCC=/opt/psn00bsdk/bin/mipsel-none-elf-g++
+Target: mipsel-none-elf
+Configured with: ../gcc-12.2.0/configure --prefix=/home/runner/work/PSn00bSDK/PSn00bSDK/gcc/linux --target=mipsel-none-elf --disable-docs --disable-nls --disable-libada --disable-libssp --disable-libquadmath --disable-libstdc++-v3 --with-float=soft --enable-languages=c,c++ --with-gnu-as --with-gnu-ld
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_dcfa1.dir/'
+ /opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/cc1plus -quiet -v -imultilib soft-float -iprefix /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/ -D NDEBUG=1 -D PSN00BSDK=1 /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dcfa1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -o /tmp/cceDhMto.s
+GNU C++17 (GCC) version 12.2.0 (mipsel-none-elf)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/mipsel-none-elf/soft-float"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/backward"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/mipsel-none-elf/soft-float"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/backward"
+ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include"
+ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include-fixed"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include
+ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed
+End of search list.
+GNU C++17 (GCC) version 12.2.0 (mipsel-none-elf)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 198d635876e88bf6b5abc7a2ee368840
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_dcfa1.dir/'
+ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/as -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cceDhMto.s
+GNU assembler version 2.39 (mipsel-none-elf) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../libexec/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/
+LIBRARY_PATH=/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/soft-float/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../lib/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX static library libcmTC_dcfa1.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include]
+    add: [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+  end of search list found
+  collapse include dir [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include] ==> [/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include]
+  collapse include dir [/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed] ==> [/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+  implicit include dirs: [/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include;/opt/psn00bsdk/lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-none-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/psn00bsdk/bin/ninja cmTC_dcfa1 && [1/2] Building CXX object CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_AS_OPTIONS='--strip-local-absolute']
+  ignore line: [COLLECT_GCC=/opt/psn00bsdk/bin/mipsel-none-elf-g++]
+  ignore line: [Target: mipsel-none-elf]
+  ignore line: [Configured with: ../gcc-12.2.0/configure --prefix=/home/runner/work/PSn00bSDK/PSn00bSDK/gcc/linux --target=mipsel-none-elf --disable-docs --disable-nls --disable-libada --disable-libssp --disable-libquadmath --disable-libstdc++-v3 --with-float=soft --enable-languages=c,c++ --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_dcfa1.dir/']
+  ignore line: [ /opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/cc1plus -quiet -v -imultilib soft-float -iprefix /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/ -D NDEBUG=1 -D PSN00BSDK=1 /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dcfa1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -o /tmp/cceDhMto.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/mipsel-none-elf/soft-float"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/backward"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/mipsel-none-elf/soft-float"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include/c++/12.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include"]
+  ignore line: [ignoring duplicate directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "/opt/psn00bsdk/bin/../lib/gcc/../../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include]
+  ignore line: [ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 198d635876e88bf6b5abc7a2ee368840]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_dcfa1.dir/']
+  ignore line: [ /opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/as -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cceDhMto.s]
+  ignore line: [GNU assembler version 2.39 (mipsel-none-elf) using BFD version (GNU Binutils) 2.39]
+  ignore line: [COMPILER_PATH=/opt/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../libexec/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/soft-float/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/:/opt/psn00bsdk/bin/../lib/gcc/:/opt/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.2.0/../../../../mipsel-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_dcfa1.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX static library libcmTC_dcfa1.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

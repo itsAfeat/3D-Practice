@@ -1,0 +1,4 @@
+/home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/game.dir
+/home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/iso.dir
+/home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/edit_cache.dir
+/home/bremsespor/Programming/PS1 projects/3D test/build/CMakeFiles/rebuild_cache.dir

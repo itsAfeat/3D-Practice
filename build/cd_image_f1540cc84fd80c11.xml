@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<iso_project
+	image_name="game.bin"
+	cue_sheet="game.cue"
+>
+	<track type="data">
+	
+		<identifiers
+			system			="PLAYSTATION"
+			volume			="3D_PRACTICE"
+			volume_set		="3D_PRACTICE"
+			publisher		="BREMSESPOR"
+			data_preparer	="PSN00BSDK 0.22"
+			application		="PLAYSTATION"
+			copyright		="README.TXT;1"
+		/>
+		
+		<license file="/home/bremsespor/Programming/PS1 projects/3D test/LICENSEE.DAT" />
+		<directory_tree>
+			<file name="SYSTEM.CNF"		type="data" source="/home/bremsespor/Programming/PS1 projects/3D test/system.cnf" />
+			<file name="GAME.EXE"		type="data" source="game.exe" />
+			<file name="STRANGE.TIM"	type="data" source="/home/bremsespor/Programming/PS1 projects/3D test/TIMs/strange.tim" />
+			<file name="CUBE.MDL"		type="data" source="/home/bremsespor/Programming/PS1 projects/3D test/MDLs/cubeQuad.mdl" />
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+	
+</iso_project>
